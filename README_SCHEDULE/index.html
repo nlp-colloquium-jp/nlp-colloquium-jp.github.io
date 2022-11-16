@@ -8,7 +8,7 @@
 
 <title>
   NLPコロキウム
-  | NLPコロキウム</title>
+  | 講演者リストについて</title>
 <meta name="description" content="NLPコロキウムは自然言語処理 (NLP) および 計算言語学 (CL) に関する最先端の研究・開発に取り組んでいる方をお招きするトークイベントです。
 ">
 
@@ -19,8 +19,8 @@
 <meta name="twitter:image" content="/assets/img/ogp_logo_614x614.png" />
 <meta property="og:site_name" content="NLPコロキウム" />
 <meta property="og:type" content="object" />
-<meta property="og:title" content="NLPコロキウム| NLPコロキウム" />
-<meta property="og:url" content="/blog/index.html" />
+<meta property="og:title" content="NLPコロキウム| 講演者リストについて" />
+<meta property="og:url" content="/README_SCHEDULE/" />
 <meta property="og:description" content="NLPコロキウムは自然言語処理 (NLP) および 計算言語学 (CL) に関する最先端の研究・開発に取り組んでいる方をお招きするトークイベントです。
 " />
 <meta property="og:image" content="/assets/img/ogp_logo_1200x630.v1.png" />
@@ -43,7 +43,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/README_SCHEDULE/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -126,18 +126,48 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">講演者リストについて</h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <h1 id="講演者リストについて">講演者リストについて</h1>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">_schedule</code>: ここにデータを置く</li>
+  <li><code class="language-plaintext highlighter-rouge">_includes/schedule.html</code>: 一覧表HTML</li>
+  <li><code class="language-plaintext highlighter-rouge">_layouts/talk.html</code>: 個別ページHTML</li>
+  <li><code class="language-plaintext highlighter-rouge">_sass/_layout.scss</code>: CSS</li>
+</ul>
+
+<h1 id="マークダウンファイルのフィールド">マークダウンファイルのフィールド</h1>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">layout: talk [defult]</code>: <code class="language-plaintext highlighter-rouge">_layouts/talk.html</code> を使ってページを生成するという意味。特別な理由がない限り変更しないこと。</li>
+  <li><code class="language-plaintext highlighter-rouge">inline: false [default]</code>: <code class="language-plaintext highlighter-rouge">true</code> かつ <code class="language-plaintext highlighter-rouge">abstract</code> にテキストが入っているとき、一覧表の中で概要を表示する。それ以外の場合は個別ベージを生成する。</li>
+  <li><code class="language-plaintext highlighter-rouge">date</code>: 日時 (JST=<code class="language-plaintext highlighter-rouge">+0900</code>) (例: <code class="language-plaintext highlighter-rouge">2021-09-08 12:30:00+0900</code>)</li>
+  <li><code class="language-plaintext highlighter-rouge">date_em</code>: 日付を強調表示するとき <code class="language-plaintext highlighter-rouge">true</code></li>
+  <li><code class="language-plaintext highlighter-rouge">time_em</code>: 時間を強調表示するとき <code class="language-plaintext highlighter-rouge">true</code></li>
+  <li><code class="language-plaintext highlighter-rouge">date_tba</code>: 日時が未定 (TBA) のとき <code class="language-plaintext highlighter-rouge">true</code> (<code class="language-plaintext highlighter-rouge">date_tba==true</code> のとき、時間も非表示になる)</li>
+  <li><code class="language-plaintext highlighter-rouge">time_tba</code>: 時間が未定 (TBA) のとき <code class="language-plaintext highlighter-rouge">true</code></li>
+  <li><code class="language-plaintext highlighter-rouge">name</code>: 講演者の名前</li>
+  <li><code class="language-plaintext highlighter-rouge">affiliation</code>: 所属</li>
+  <li><code class="language-plaintext highlighter-rouge">bio</code>: スピーカー紹介 (現在非表示)</li>
+  <li><code class="language-plaintext highlighter-rouge">website</code>: スピーカー名前からリンクするWebサイト</li>
+  <li><code class="language-plaintext highlighter-rouge">topic</code>: 講演のタイトル</li>
+  <li><code class="language-plaintext highlighter-rouge">abstract</code>: 講演の概要</li>
+  <li><code class="language-plaintext highlighter-rouge">display</code>: <code class="language-plaintext highlighter-rouge">true</code> で表示 / <code class="language-plaintext highlighter-rouge">false</code> で非表示</li>
+</ul>
+
+<h2 id="tips">Tips</h2>
+
+<ul>
+  <li>文字列の中に <code class="language-plaintext highlighter-rouge">:</code> のような表示できない文字がある場合、文字列全体をダブルクオーテーション <code class="language-plaintext highlighter-rouge">"</code> で囲む。 (例: <code class="language-plaintext highlighter-rouge">_schedule/2021-04-21_akari-asai.md</code>)</li>
+</ul>
 
 
-  <ul class="post-list">
-    
-  </ul>
-
-  
-
+  </article>
 
 </div>
 

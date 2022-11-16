@@ -8,7 +8,8 @@
 
 <title>
   NLPコロキウム
-  | NLPコロキウム</title>
+  
+    | Deep Encoder, Shallow Decoder: Reevaluating Non-autoregressive Machine Translation (笠井淳吾)</title>
 <meta name="description" content="NLPコロキウムは自然言語処理 (NLP) および 計算言語学 (CL) に関する最先端の研究・開発に取り組んでいる方をお招きするトークイベントです。
 ">
 
@@ -19,8 +20,8 @@
 <meta name="twitter:image" content="/assets/img/ogp_logo_614x614.png" />
 <meta property="og:site_name" content="NLPコロキウム" />
 <meta property="og:type" content="object" />
-<meta property="og:title" content="NLPコロキウム| NLPコロキウム" />
-<meta property="og:url" content="/blog/index.html" />
+<meta property="og:title" content="NLPコロキウム | Deep Encoder, Shallow Decoder: Reevaluating Non-autoregressive Machine Translation (笠井淳吾)" />
+<meta property="og:url" content="/schedule/2021-07-07_jungo-kasai/" />
 <meta property="og:description" content="NLPコロキウムは自然言語処理 (NLP) および 計算言語学 (CL) に関する最先端の研究・開発に取り組んでいる方をお招きするトークイベントです。
 " />
 <meta property="og:image" content="/assets/img/ogp_logo_1200x630.v1.png" />
@@ -43,7 +44,7 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/schedule/2021-07-07_jungo-kasai/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -124,21 +125,47 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
+<div class="talk">
+  <header class="talk-header">
+    <h1 class="talk-title">Deep Encoder, Shallow Decoder: Reevaluating Non-autoregressive Machine Translation</h1>
+    <p class="talk-meta">
+      
+        
+          2021/07/07 (Wed)
+        
+        
+          
+            12:00 (JST)
+            
+        
+      
+    </p>
+  </header>
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <article class="talk-body">
+    <div class="talk-speaker">
+      <h2 class="speaker-name">笠井淳吾 (University of Washington)</h2>
+      
+        <a href="https://homes.cs.washington.edu/~jkasai/" target="_blank">[Webサイト]</a>
+      
+      <p class="speaker-bio">Jungo Kasai is a rising fourth-year PhD student at the Paul G. Allen School of Computer Science & Engineering of the University of Washington, Seattle, advised by Noah A. Smith. He works on natural language processing and machine learning. His research interests include machine translation, language generation, multilingual natural language processing, and structured prediction.</p>
+    </div>
+    <div class="talk-content">
+      <h2>概要</h2>
+      <p class="talk-abstract">Much recent effort has been invested in non-autoregressive neural machine translation, which appears to be an efficient alternative to state-of-the-art autoregressive machine translation on modern GPUs. In contrast to the latter, where generation is sequential, the former allows generation to be parallelized across target token positions. Some of the latest non-autoregressive models have achieved impressive translation quality-speed tradeoffs compared to autoregressive baselines. In this work, we reexamine this tradeoff and argue that autoregressive baselines can be substantially sped up without loss in accuracy. Specifically, we study autoregressive models with encoders and decoders of varied depths. Our extensive experiments show that given a sufficiently deep encoder, a single-layer autoregressive decoder can substantially outperform strong non-autoregressive models with comparable inference speed. We show that the speed disadvantage for autoregressive baselines compared to non-autoregressive methods has been overestimated in three aspects: suboptimal layer allocation, insufficient speed measurement, and lack of knowledge distillation. Our results establish a new protocol for future research toward fast, accurate machine translation.</p>
+      <p>※トークは日本語です。</p>  
+      <p class="talk-misc"><p><a href="https://youtu.be/rxkXohKUthg">[動画]</a> <a href="https://www.slideshare.net/JungoKasai/deep-encoder-shallow-decoder-reevaluating-nonautoregressive-machine-translation">[スライド]</a> <a href="https://arxiv.org/abs/2006.10369">[論文]</a> (ICLR 2021)</p>
 
+</p>
+    </div>
+  </article>
+<p class="mb-0"><b><font color='red'>メーリングリストへの登録:</font></b> 参加用URLなどNLPコロキウムに関するお知らせを受け取りたい方はメーリングリストへのご登録をお願いします。</p>
+<p class="text-center mt-0">
+<a class="btn btn-outline-danger" href="https://docs.google.com/forms/d/e/1FAIpQLSdoLi9-yUvNfQAP_a71HRIBhLsXjwOPhEV-QdJXRvKPyiU5dQ/viewform?usp=sf_link" role="button" target="_blank">メーリングリスト登録フォーム</a>
+</p>
 
-  <ul class="post-list">
-    
-  </ul>
-
-  
-
-
+<p><a href="/">[トップページへ戻る]</a></p>
 </div>
 
     </div>
