@@ -14,7 +14,9 @@
             <a href="https://www.researchgate.net/profile/{{site.research_gate_profile}}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
             {% endif %}
             {%- if site.youtube_username -%}
-            <a href="https://www.youtube.com/channel/{{ site.youtube_username }}" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.youtube.com/{{ site.youtube_username }}" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a> <!--  <a href="https://www.youtube.com/channel/{{ site.youtube_username }}" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a> -->
+            {% endif %}
+            {%- if site.facebook_username -%}
             {% endif %}
             {%- if site.github_username -%}
             <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
