@@ -4,7 +4,7 @@ date: 2023-05-17 12:00:00+0900
 inline: false
 name: 水木栄
 name_en: Sakae Mizuki
-affiliation: 東京工業大学/株式会社ホットリンク
+affiliation: 東京工業大学, 株式会社ホットリンク
 bio: 東京工業大学 情報理工学院 博士後期課程在籍中および，株式会社ホットリンクにてソーシャルメディアの研究開発に従事．表現学習に興味を持つ．
 website: https://s-mizuki-nlp.github.io/
 topic: 埋め込み表現の意味適応による知識ベース語義曖昧性解消
