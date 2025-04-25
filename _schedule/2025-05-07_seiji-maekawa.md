@@ -1,7 +1,6 @@
 ---
 layout: talk
 date: 2025-05-07 12:00:00+0900
-time_end: 13:00:00+0900
 time_em: false
 inline: false
 name: 前川政司
