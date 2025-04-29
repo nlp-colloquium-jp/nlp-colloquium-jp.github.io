@@ -523,3 +523,10 @@ html.transition *:after {
     }
   }
 }
+
+// Custom CSS
+#header-info-page {
+  font-size: 1rem;
+  color: var(--global-theme-color);
+  font-weight: bolder;
+}
