@@ -1,10 +1,8 @@
 ---
 layout: top
-title: NLPコロキウムについて
+title: 会の趣旨
 permalink: /about/
 description: 
-sponsors: true # includes a list of sponsors
-organizers: true # includes a list of organizers
 ---
 
 ## 主旨
