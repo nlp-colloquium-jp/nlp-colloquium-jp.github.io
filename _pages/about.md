@@ -1,6 +1,6 @@
 ---
 layout: top
-title: 会の趣旨
+title: 会の主旨
 permalink: /about/
 description: 
 ---
