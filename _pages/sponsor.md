@@ -23,30 +23,33 @@ NLPコロキウムの運営を支えてくださるスポンサーを募集し�
         <th>種別</th>
         <th class="breakable">トークでのロゴ掲載<wbr>＆一言紹介</th>
         <th class="breakable">HPメインページ<wbr>へのロゴ掲載</th>
-        <th class="breakable">YouTube公開動画<wbr>へのロゴ掲載</th>
+        <th class="breakable">YouTube動画<wbr>へのロゴ掲載</th>
+        <th class="breakable">Xでの<wbr>ポスト</th>
         <th class="breakable">スポンサー<wbr>トーク</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td class="nobreak">プラチナ</td>
-        <td class="center">○</td>
-        <td class="center">○</td>
+        <td class="center">サイズ：大</td>
+        <td class="center">サイズ：大</td>
+        <td class="center">サイズ：大</td>
         <td class="center">○</td>
         <td class="center">○</td>
       </tr>
       <tr>
         <td class="nobreak">ゴールド</td>
-        <td class="center">○</td>
-        <td class="center">○</td>
-        <td class="center">○</td>
+        <td class="center">サイズ：小</td>
+        <td class="center">サイズ：小</td>
+        <td class="center">サイズ：小</td>
+        <td class="center">–</td>
         <td class="center">–</td>
       </tr>
     </tbody>
     <tfoot>
       <tr>
-        <td colspan="5" class="footnote">
-          スポンサートークは半年に1回、2–3分程度
+        <td colspan="6" class="footnote">
+          Xでのプロモーションは半年に2回、スポンサートークは半年に1回（2–3分程度）
         </td>
       </tr>
     </tfoot>
@@ -61,7 +64,7 @@ NLPコロキウムは学生・社会人を問わず、自然言語処理 (NLP) �
   <div class="recent-attendance">
     <div class="icon"><i class="fas fa-users fa-2x"></i></div>
     <div class="label">直近5回の参加者</div>
-    <div class="value">平均 <span class="highlight">264</span> 人</div>
+    <div class="value">平均 <span class="highlight">264</span> 名</div>
   </div>
 
   <hr class="dotted">
