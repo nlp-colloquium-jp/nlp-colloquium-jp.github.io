@@ -528,3 +528,106 @@ html.transition *:after {
 .nav-link.dropdown-toggle::after {
   display: none;
 }
+
+.stats-overview {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+.stats-overview h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.recent-attendance {
+  display: flex;             /* instead of inline‑flex */
+  flex-direction: column;    /* stack children top→down */
+  align-items: center;       /* center‑align horizontally */
+  gap: 0.5rem;               /* vertical spacing */
+  margin-bottom: 1rem;
+}
+.recent-attendance .icon { font-size: 2rem; }
+.recent-attendance .label { font-size: 1.25rem; color: #666; }
+.recent-attendance .value { font-size: 1.5rem; }
+
+.dotted {
+  border: none;
+  border-top: 1px dotted #ccc;
+  margin: 2rem auto;
+  width: 80%;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.stat-card {
+  flex: 1 1 200px;
+  max-width: 300px;
+  text-align: center;
+}
+.stat-card .icon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.stat-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.stat-card .highlight {
+  color: #d9534f;  /* adjust to your theme’s accent */
+  font-weight: bold;
+}
+
+/* ── Sponsor‑benefits table overrides ─────────────────────────────────────── */
+.sponsor-benefits {
+  margin: 2rem auto;            /* already centers the section */
+}
+
+/* Center the table block itself */
+.sponsor-benefits table {
+  margin-left: auto; /* override any float or display:block */
+  margin-right: auto;
+  display: table;    /* ensure normal table layout (override responsive helpers) */
+  width: 100%;       /* full‑width of its container */
+  table-layout: auto;
+  border-collapse: collapse;    /* collapse borders for single‑line grid */
+}
+
+/* Center all header and data cells */
+.sponsor-benefits th,
+.sponsor-benefits td {
+  text-align: center;  /* override any left‑align in base */
+  vertical-align: middle;
+  padding: 0.75rem;    /* consistent padding */
+  border: 1px solid var(--global-divider-color); /* 1px grid lines :contentReference[oaicite:0]{index=0} */
+}
+
+/* Header row background */
+.sponsor-benefits th {
+  background-color: rgba(0,0,0,0.03); /* very light gray stripe */
+  font-weight: 600;
+}
+
+.sponsor-benefits th.breakable {
+  /* permit wrapping here (override any “nowrap” from the theme) */
+  white-space: normal !important;    
+  /* let the browser break at our <wbr> if the cell is too narrow */
+  overflow-wrap: anywhere;           
+  /* keep-all prevents CJK text from breaking at other locations */
+  word-break: keep-all;               
+}
+
+/* ── Prevent line‑breaks in the first column (プラチナ／ゴールド) ───────────────── */
+.sponsor-benefits td.nobreak {
+  white-space: nowrap;    /* never break inside these cells */
+}
+
+/* Footer note spans full width */
+.sponsor-benefits tfoot td {
+  border: none;           /* no border for footnote row */
+  text-align: right !important;       /* left‑align note text */
+  // font-size: 0.875rem;
+  // color: var(--global-text-color-light);
+  padding-top: 1rem;
+}
