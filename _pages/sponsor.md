@@ -14,14 +14,12 @@ NLPコロキウムの運営を支えてくださるスポンサーを募集し�
 
 ## スポンサー特典
 
-以下の特典以外にもご希望がありましたら検討させていただきますのでお知らせください。
-
 <section class="sponsor-benefits">
   <table>
     <thead>
       <tr>
         <th>種別</th>
-        <th class="breakable">トークでのロゴ掲載<wbr>＆一言紹介</th>
+        <th class="breakable">トークでのロゴ掲載<wbr>＆社名読み上げ</th>
         <th class="breakable">HPメインページ<wbr>へのロゴ掲載</th>
         <th class="breakable">YouTube動画<wbr>へのロゴ掲載</th>
         <th class="breakable">Xでの<wbr>ポスト</th>
@@ -54,6 +52,9 @@ NLPコロキウムの運営を支えてくださるスポンサーを募集し�
       </tr>
     </tfoot>
   </table>
+
+以上の特典以外にもご希望がありましたら検討させていただきますのでお知らせください。
+
 </section>
 
 ## 数字で見るNLPコロキウム（情報は2025年5月時点）
@@ -63,8 +64,8 @@ NLPコロキウムは学生・社会人を問わず、自然言語処理 (NLP) �
 <section class="stats-overview">
   <div class="recent-attendance">
     <div class="icon"><i class="fas fa-users fa-2x"></i></div>
-    <div class="label">直近5回の参加者</div>
-    <div class="value">平均 <span class="highlight">264</span> 名</div>
+    <div class="label">直近10回の平均参加者数</div>
+    <div class="value"><span class="highlight">251</span> 名</div>
   </div>
 
   <hr class="dotted">
