@@ -2,8 +2,10 @@
 layout: top
 title: スポンサーをお考えの方へ
 permalink: /sponsor/
-description: スポンサーをお考えの方へ
 ---
+
+# {{ page.title }}
+
 
 NLPコロキウムの運営を支えてくださるスポンサーを募集しています。ご関心をお持ちの方は、ぜひお気軽にお問い合わせください。
 
@@ -12,9 +14,9 @@ NLPコロキウムの運営を支えてくださるスポンサーを募集し�
 </p>
 
 
-## スポンサー特典
-
 <section class="sponsor-benefits">
+  <h2>スポンサー特典</h2>
+
   <table>
     <thead>
       <tr>
@@ -47,48 +49,51 @@ NLPコロキウムの運営を支えてくださるスポンサーを募集し�
     <tfoot>
       <tr>
         <td colspan="6" class="footnote">
-          Xでのプロモーションは半年に2回、スポンサートークは半年に1回（2–3分程度）
+          Xでのプロモーションは半年に2回まで、スポンサートークは半年に1回まで（2–3分程度）
         </td>
       </tr>
     </tfoot>
   </table>
 
-以上の特典以外にもご希望がありましたら検討させていただきますのでお知らせください。
-
+  以上の特典以外にもご希望がありましたら検討させていただきますのでお知らせください。
 </section>
 
-## 数字で見るNLPコロキウム（情報は2025年5月時点）
 
-NLPコロキウムは学生・社会人を問わず、自然言語処理 (NLP) および 計算言語学 (CL) に興味のある多くの方に注目していただいているイベントです。
+<section class="stats-overview-section">
+  <h2>数字で見るNLPコロキウム</h2>
 
-<section class="stats-overview">
-  <div class="recent-attendance">
-    <div class="icon"><i class="fas fa-users fa-2x"></i></div>
-    <div class="label">直近10回の平均参加者数</div>
-    <div class="value"><span class="highlight">251</span> 名</div>
-  </div>
+  NLPコロキウムは自然言語処理および計算言語学に興味のある多くの方に注目していただいているイベントです。
 
-  <hr class="dotted">
-
-  <div class="stats-grid">
-    <div class="stat-card">
-      <a href="https://www.youtube.com/{{ site.youtube_username }}" target="_blank" title="YouTube">
-        <div class="icon youtube"><i class="fab fa-youtube fa-2x" style="color: #FF0000;"></i></div>
-      </a>
-      <h2>YouTube</h2>
-      <p>登録者数 <span class="highlight">1,540</span> 名、<br>総再生時間 <span class="highlight">3,564</span> 時間</p>
+  <div class="stats-overview">
+    <div class="recent-attendance">
+      <div class="icon"><i class="fas fa-users fa-2x"></i></div>
+      <div class="label">直近10回の平均参加者数</div>
+      <div class="value"><span class="highlight">251</span> 名</div>
     </div>
-    <div class="stat-card">
-      <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
-        <div class="icon twitter"><i class="fab fa-square-x-twitter fa-2x" style="color: #000;"></i></div>
-      </a>
-      <h2>X（旧Twitter）</h2>
-      <p>フォロワー <span class="highlight">1,651</span> 名</p>
+    <hr class="dotted">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <a href="https://www.youtube.com/{{ site.youtube_username }}" target="_blank" title="YouTube">
+          <div class="icon youtube"><i class="fab fa-youtube fa-2x" style="color: #FF0000;"></i></div>
+        </a>
+        <h2>YouTube</h2>
+        <p>登録者数 <span class="highlight">1,540</span> 名、<br>総再生時間 <span class="highlight">3,564</span> 時間</p>
+      </div>
+      <div class="stat-card">
+        <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
+          <div class="icon twitter"><i class="fab fa-square-x-twitter fa-2x" style="color: #000;"></i></div>
+        </a>
+        <h2>X（旧Twitter）</h2>
+        <p>フォロワー <span class="highlight">1,651</span> 名</p>
+      </div>
+      <div class="stat-card">
+        <div class="icon mail"><i class="fas fa-envelope fa-2x" style="color: #555;"></i></div>
+        <h2>メーリングリスト</h2>
+        <p>登録者数 <span class="highlight">2,260</span> 名</p>
+      </div>
     </div>
-    <div class="stat-card">
-      <div class="icon mail"><i class="fas fa-envelope fa-2x" style="color: #555;"></i></div>
-      <h2>メーリングリスト</h2>
-      <p>登録者数 <span class="highlight">2,260</span> 名</p>
+    <div class="stats-note">
+      情報は2025年5月時点。
     </div>
   </div>
 </section>

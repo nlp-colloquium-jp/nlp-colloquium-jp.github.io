@@ -574,14 +574,18 @@ html.transition *:after {
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
 }
-.stat-card .highlight {
-  color: #d9534f;  /* adjust to your theme’s accent */
+.stats-overview .highlight {
+  color: #d9534f;
   font-weight: bold;
+}
+.stats-note {
+  text-align: right;
+  margin-top: 1rem;
 }
 
 /* ── Sponsor‑benefits table overrides ─────────────────────────────────────── */
 .sponsor-benefits {
-  margin: 2rem auto;            /* already centers the section */
+  margin: 2rem auto;
 }
 
 /* Center the table block itself */
@@ -630,4 +634,5 @@ html.transition *:after {
   // font-size: 0.875rem;
   // color: var(--global-text-color-light);
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
