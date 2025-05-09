@@ -10,6 +10,22 @@
           {% include social.html %}
         </div>
       {% endif %}
+
+      <!-- Dropdown Navigation -->
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span> <!-- Bootstrap built-in icon -->
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="{{ site.baseurl }}/about/">会の主旨</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/anti-harassment_policy/">アンチハラスメントポリシー</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/sponsor/">スポンサーをお考えの方へ</a>
+            <a class="dropdown-item" href="{{ site.baseurl }}/info/">事業内容</a>
+          </div>
+        </li>
+      </ul>
     </div>
   </nav>
 
