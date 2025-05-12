@@ -16,10 +16,7 @@
         }
     }
 
-    if (isBrowserBackUsed && isExpandedPrev) {
-        $(".hidden-row").show();
-        $(".expand-button-row").hide();
-    } else {
+    if (!isBrowserBackUsed || !isExpandedPrev) {
         $(".hidden-row").hide();
         $(".expand-button-row").show();
         sessionStorage.setItem('isExpanded', 'false');
