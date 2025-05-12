@@ -16,7 +16,10 @@ $(document).ready(function(){
         }
     }
 
-    if (!isBrowserBackUsed || !isExpandedPrev) {
+    if (isBrowserBackUsed && isExpandedPrev) {
+        $(".hidden-row").show();
+        $(".expand-button-row").hide();
+    } else {
         $(".hidden-row").hide();
         $(".expand-button-row").show();
         sessionStorage.setItem('isExpanded', 'false');
