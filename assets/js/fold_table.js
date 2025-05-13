@@ -1,4 +1,4 @@
-$(document).ready(function(){
+(function(){
     function toBoolean(booleanStr) {
         if (booleanStr === null) {
             return false
@@ -28,4 +28,4 @@ $(document).ready(function(){
         $(".expand-button-row").hide();
         sessionStorage.setItem('isExpanded', 'true');
     });
-});
+})();
