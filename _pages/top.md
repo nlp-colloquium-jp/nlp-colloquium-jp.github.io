@@ -10,7 +10,7 @@ organizers: true # includes a list of organizers
 social: false  # includes social icons at the bottom of the page
 ---
 
-**NLPコロキウム** は自然言語処理 (NLP) および 計算言語学 (CL) に関連する幅広い分野で最先端の研究・開発に取り組んでいる方をお招きするオンラインのトークイベントです。
+**NLPコロキウム** は自然言語処理 (NLP) および 計算言語学 (CL) に関連する幅広い分野で最先端の研究・開発に取り組んでいる方をお招きするオンラインのトークイベントです。論文の著者が登壇し、ご自身の研究を紹介する形式を中心に開催しています。
 
 参加用URLなどNLPコロキウムに関するお知らせを受け取りたい方は[こちらのフォーム](https://docs.google.com/forms/d/e/1FAIpQLSdoLi9-yUvNfQAP_a71HRIBhLsXjwOPhEV-QdJXRvKPyiU5dQ/viewform?usp=sf_link)からメーリングリストへのご登録をお願いします。
 
@@ -42,7 +42,7 @@ NLP/CLに興味を持っている周辺分野の学生の方や研究を自社�
 
 ## (1) 15-20分のトーク＋QA・ディスカッション
 
-ACLやEMNLP、あるいはNeurIPSやICLRなどトップレベルの国際会議・論文誌を主戦場としている方を中心にお招きし、主に半年から1年前に公開された最新の研究に関して短めの講演していただきます。講演は基本的に日本語の予定です。また、許可をいただけた講演に関してはYouTubeにて[アーカイブ配信 <i class="fab fa-youtube"></i>](https://www.youtube.com/@nlp_colloquium_jp)を行っています。
+ACLやEMNLP、あるいはNeurIPSやICLRなどトップレベルの国際会議・論文誌を主戦場としている方を中心にお招きし、主に半年から1年前に公開されたご自身の最新の研究に関して短めの講演していただきます。講演は基本的に日本語の予定です。また、許可をいただけた講演に関してはYouTubeにて[アーカイブ配信 <i class="fab fa-youtube"></i>](https://www.youtube.com/@nlp_colloquium_jp)を行っています。
 
 講演者の推薦常時受付中です →
 <a class="btn btn-outline-danger btn-sm" href="https://docs.google.com/forms/d/e/1FAIpQLSdlX-f9ybTi6DeXmd1HILInb1wovKeBxKSxZct8cqppCwBvfw/viewform?usp=sf_link" role="button" target="_blank">推薦フォーム</a>
