@@ -8,7 +8,7 @@ name_en: Kazuki Fujii
 affiliation: 東京科学大学
 bio: TBA
 website: https://okoge-kaz.github.io/
-topic: TBA
+topic: "論文では語られないLLM開発において重要なこと - Swallowプロジェクトを通して（仮）"
 abstract: TBA
 display: true
 ---
