@@ -14,3 +14,4 @@ abstract: 機械学習は学習と推論 (inference) からなります。学習
 display: true
 ---
 
+[[論文]](https://arxiv.org/abs/2502.12685) (ACL 2025)
