@@ -13,4 +13,4 @@ abstract: 基盤モデル（foundation model）はさまざまな専門的タス
 display: true
 ---
 
-[[論文]](https://arxiv.org/abs/2502.12776) (ICML 2025)
+[[スライド]]({{ '/assets/pdf/2025-07-09_taku-hasegawa_slides.pdf' | relative_url }}) [[論文]](https://arxiv.org/abs/2502.12776) (ICML 2025)
