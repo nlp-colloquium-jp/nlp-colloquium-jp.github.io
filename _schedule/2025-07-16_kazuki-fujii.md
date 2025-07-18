@@ -13,4 +13,5 @@ abstract: 2023年10月以降、12シリーズのモデルをリリースして�
 display: true
 ---
 
-[[プロジェクトページ]](https://swallow-llm.github.io/index.ja.html) [[論文]](https://arxiv.org/abs/2404.17790) (COLM 2024)
+[[スライド]](https://speakerdeck.com/fujiikazuki2000/lun-wen-dehayu-rarenaillmkai-fa-nioitezhong-yao-nakoto-swallow-projectwotong-site
+) [[プロジェクトページ]](https://swallow-llm.github.io/index.ja.html) [[論文]](https://arxiv.org/abs/2404.17790) (COLM 2024)
