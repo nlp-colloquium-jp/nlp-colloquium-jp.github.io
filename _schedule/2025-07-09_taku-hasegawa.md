@@ -12,5 +12,4 @@ topic: "Portable Reward Tuning: Towards Reusable Fine-Tuning across Different Pr
 abstract: 基盤モデル（foundation model）はさまざまな専門的タスクに活用されてきましたが、どの基盤モデルもその古い知識や限られた能力のために、いずれ陳腐化します。 よって、基盤モデルは度々アップデートされ、そのたびに新しいモデルをファインチューニングするコストが繰り返し発生します。 本論文では、ファインチューニングを報酬最大化問題として再定式化することに基づき、推論時のオーバーヘッドを本質的に低減する新たなファインチューニング手法「Portable Reward Tuning（PRT）」を提案しました。PRTでは、基盤モデルのパラメータをファインチューニングする代わりに、報酬モデルを明示的に学習します。 推論時には、報酬最大化の定式化を通じて、この報酬モデルを条件を満たす任意の基盤モデルと組み合わせて使用することができます。 実験を通して、PRTで学習したモデルは既存の推論時チューニングと同等の精度を達成しながら、推論コストを削減できることを示しました。
 display: true
 ---
-
-[[スライド]]({{ '/assets/pdf/2025-07-09_taku-hasegawa_slides.pdf' | relative_url }}) [[論文]](https://arxiv.org/abs/2502.12776) (ICML 2025)
+[[動画]](https://www.youtube.com/watch?v=hSj7ZK1K4Hc) [[スライド]]({{ '/assets/pdf/2025-07-09_taku-hasegawa_slides.pdf' | relative_url }}) [[論文]](https://arxiv.org/abs/2502.12776) (ICML 2025)

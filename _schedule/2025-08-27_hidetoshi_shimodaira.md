@@ -12,4 +12,4 @@ topic: 言語モデルの地図：確率分布と情報幾何による類似性�
 abstract: ACL 2025でOutstanding Paper Awardを受賞した論文「Mapping 1,000+ Language Models via the Log-Likelihood Vector」に関連する話題を紹介します．本研究では，対数尤度ベクトルを用いて1,000を超える言語モデルを確率分布空間にマッピングし，情報幾何の枠組みのもとでそのテキスト生成の特性をKLダイバージェンスにより定量化しました．一般に，生成AIをテキストや画像といった多様なコンテンツを出力する確率分布とみなすと，このようなマッピングによりモデル間の類似性を精密に測定でき，性能予測や学習過程の分析に応用できます．高性能な言語モデルのオープンソース化が進み，利用者がモデルを個別に調整する時代が近い将来到来すれば，本研究のような多数のモデルの特性を体系的に把握するための評価技術の重要性は一層高まると考えられます．
 display: true
 ---
-[[スライド]](https://speakerdeck.com/shimosan/yan-yu-moderunodi-tu-que-lu-fen-bu-to-qing-bao-ji-he-niyorulei-si-xing-noke-shi-hua) [[論文]](https://aclanthology.org/2025.acl-long.1584/) (ACL 2025)
+[[動画]](https://www.youtube.com/watch?v=BV4-cuxVUJI) [[スライド]](https://speakerdeck.com/shimosan/yan-yu-moderunodi-tu-que-lu-fen-bu-to-qing-bao-ji-he-niyorulei-si-xing-noke-shi-hua) [[論文]](https://aclanthology.org/2025.acl-long.1584/) (ACL 2025)

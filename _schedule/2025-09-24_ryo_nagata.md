@@ -12,5 +12,4 @@ topic: 単語の意味をはかる
 abstract: 本トークでは，ACL2025で発表した「A New Formulation of Zipf's Meaning-Frequency Law through Contextual Diversity」の技術的なポイントを解説しつつ，本研究に至った経緯をお話します．この研究は私にとってちょっとした冒険のようであり，様々なイベントがいろいろな場所で起こり，それぞれが一つに集結して完成しました．技術的な面として，語義の多様性が言語モデルから得られる単語ベクトルのノルムという非常にシンプルな量で測定できることをお話しします．また，この量を通じて単語の頻度と語義の多様性の間にべき乗則が見られことを示します．更に，このことがZipf（1945）の意味頻度法則とHarris（1954）の分布意味論とを関連付けるという言語学的な意味があることも解説します．
 display: true
 ---
-
-[[スライド]](https://nagata-github.github.io/NLPColloquiumSlides/) [[論文1]](https://aclanthology.org/2025.acl-long.744/) (ACL 2025) [[論文2]](https://aclanthology.org/2023.emnlp-main.965/) (EMNLP 2023)
+[[動画]](https://www.youtube.com/watch?v=uAQVq6mZNaI) [[スライド]](https://nagata-github.github.io/NLPColloquiumSlides/) [[論文1]](https://aclanthology.org/2025.acl-long.744/) (ACL 2025) [[論文2]](https://aclanthology.org/2023.emnlp-main.965/) (EMNLP 2023)

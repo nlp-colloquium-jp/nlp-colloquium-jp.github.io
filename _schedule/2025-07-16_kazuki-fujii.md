@@ -12,6 +12,4 @@ topic: "論文では語られないLLM開発において重要なこと ― Swal
 abstract: 2023年10月以降、12シリーズのモデルをリリースしてきたSwallow Projectにおける研究開発を通じて得られた、論文ではあまり言及されない重要なポイントや開発上の困難（difficulty）について、5つの観点から紹介します。実際のモデル開発現場の空気感をお伝えするため、かなりニッチな内容も盛り込みました。
 display: true
 ---
-
-[[スライド]](https://speakerdeck.com/fujiikazuki2000/lun-wen-dehayu-rarenaillmkai-fa-nioitezhong-yao-nakoto-swallow-projectwotong-site
-) [[プロジェクトページ]](https://swallow-llm.github.io/index.ja.html) [[論文]](https://arxiv.org/abs/2404.17790) (COLM 2024)
+[[動画]](https://www.youtube.com/watch?v=qAlj8EtCiuI) [[スライド]](https://speakerdeck.com/fujiikazuki2000/lun-wen-dehayu-rarenaillmkai-fa-nioitezhong-yao-nakoto-swallow-projectwotong-site) [[プロジェクトページ]](https://swallow-llm.github.io/index.ja.html) [[論文]](https://arxiv.org/abs/2404.17790) (COLM 2024)
