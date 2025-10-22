@@ -13,4 +13,4 @@ abstract: "近年, LLM（Large Language Model）の大規模化に伴い, 推論
 display: true
 ---
 
-[[論文1]](https://arxiv.org/abs/2504.09629) (NeurIPS 2025) [[論文2]](https://openreview.net/forum?id=9EfBeXaXf0) (ICLR 2025) [[論文3]](https://arxiv.org/abs/2309.16965) (NeurIPS 2024)
+[[スライド]](https://speakerdeck.com/yumaichikawa/nlpkorokiumu20251022-chao-xiao-lu-hua-henotiao-zhan-llm-1bitliang-zi-hua-norodomatupu) [[論文1]](https://arxiv.org/abs/2504.09629) (NeurIPS 2025) [[論文2]](https://openreview.net/forum?id=9EfBeXaXf0) (ICLR 2025) [[論文3]](https://arxiv.org/abs/2309.16965) (NeurIPS 2024)
