@@ -29,7 +29,8 @@ layout: none
       "bio": {{ item.bio | jsonify }},
       "talk_url": {{ item.url | absolute_url | jsonify }},
       "id": {{ item.id | jsonify }},
-      "md_path": {{ item.path | jsonify }}
+      "md_path": {{ item.path | jsonify }},
+      "notice": {{ item.notice | jsonify }}
     }{% unless forloop.last %},{% endunless %}{% endif %}{% endfor -%}
   ]
 }
