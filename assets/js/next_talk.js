@@ -71,7 +71,8 @@ async function displayClosestTalk() {
         }).formatToParts(date).find(part => part.type === 'timeZoneName').value;
         console.log(date_str);
         const name = prepareNameColumn(closestTalk.name, closestTalk.name_en, closestTalk.website)
-
+        // If there's a notice field, render it in bold below the details
+        const notice_html = closestTalk.notice ? `<p style="text-align:center;font-weight:700"><strong>${closestTalk.notice}</strong></p>` : '';
         if (checkIfOngoing(closestTalk)) {
             nextTalkDiv.classList.add("bd-callout", "bd-callout-themecolor");
             nextTalkDiv.innerHTML = `
@@ -81,7 +82,9 @@ async function displayClosestTalk() {
                 <dd class="col-sm-10 mb-1">${name}</dd>
                 <dt class="col-sm-2 mb-1">トピック</dt>
                 <dd class="col-sm-10 mb-1"><a href=${closestTalk.talk_url}>${closestTalk.topic}</a></dd>
-            </dl>`;
+            </dl>
+            ${notice_html}`;
+                
         } else {
             nextTalkDiv.classList.add("bd-callout", "bd-callout-default");
             nextTalkDiv.innerHTML = `
@@ -91,7 +94,8 @@ async function displayClosestTalk() {
                 <dd class="col-sm-10 mb-1">${name}</dd>
                 <dt class="col-sm-2 mb-1">トピック</dt>
                 <dd class="col-sm-10 mb-1"><a href=${closestTalk.talk_url}>${closestTalk.topic}</a></dd>
-            </dl>`;
+            </dl>
+            ${notice_html}`;
         }
     } else {
         nextTalkDiv.innerHTML = '';
