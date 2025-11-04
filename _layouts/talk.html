@@ -32,6 +32,9 @@ layout: default
           {{ page.date_comment }}
         {% endif %}
       {% endif %}
+      {% if page.notice %}
+        <br><b class="notice-em">{{ page.notice }}</b>
+      {% endif %}
     </p>
   </header>
 
