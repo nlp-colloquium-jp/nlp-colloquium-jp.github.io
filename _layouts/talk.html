@@ -60,9 +60,7 @@ layout: default
   {% assign links = content | replace: '<p>', '' | replace: '</p>', '' | strip %}
   <section class="talk-detail">
     <h2>📝 題目：{{ page.topic }}</h2>
-    {% if page.abstract %}
     <p class="talk-item">概要：{{ page.abstract }}</p>
-    {% endif %}
     {% if links != "" %}
     <p class="talk-item">関連リンク：{{- links -}}</p>
     {% endif %}
