@@ -12,10 +12,9 @@ layout: default
   <header class="talk-header">
     <h1 class="talk-title">{{ page.topic }}</h1>
   </header>
-
   <section class="talk-meta">
-    <h2>📅 開催日時：
-    {%- if page.date_tba -%}
+    <h2>📅 
+    {% if page.date_tba -%}
       未定
     {%- else -%}
         {%- if page.date_em -%}<u class="date-em">{%- endif -%}
@@ -26,10 +25,12 @@ layout: default
         {%- else %}
         {% if page.time_em %}<u class="time-em">{%- endif -%}
         {%- if page.time_end -%}
-          {{ page.date | date: "%H:%M" }}–{{ page.time_end | date: "%H:%M (%Z)" -}}
+          {% assign time_end = page.time_end %}
         {%- else -%}
-          {{ page.date | date: "%H:%M (%Z)" -}}
+          {% assign time_end_second = page.date | date: '%s' %}
+          {% assign time_end = time_end_second | plus: 3600 %}
         {%- endif -%}
+        {{ page.date | date: "%H:%M" }}–{{ time_end | date: "%H:%M (%Z)" -}}
         {%- if page.time_em -%}</u>{%- endif -%}
         {%- endif -%}
     {%- endif -%}
@@ -40,12 +41,12 @@ layout: default
       @ online
     {% endif %}
     {% if page.notice %}
-      <div>{{ page.notice }}</div>
+      <div>⚠️{{ page.notice }}</div>
     {% endif %}
   </section>
 
   <section class="talk-speaker">
-    <h2>🗣️ 講演者：{{ page.name }}{% if page.name_en %} / {{ page.name_en }}{% endif %}（{{ page.affiliation }}）</h2>
+    <h2>🗣️ {{ page.name }}{% if page.name_en %} / {{ page.name_en }}{% endif %}（{{ page.affiliation }}）</h2>
     {% if page.bio %}
       <div class="speaker-bio">
         <p>{{ page.bio }}
@@ -59,18 +60,19 @@ layout: default
 
   {% assign links = content | replace: '<p>', '' | replace: '</p>', '' | strip %}
   <section class="talk-detail">
-    <h2>📝 題目：{{ page.topic }}</h2>
-    <p class="talk-item">概要：{{ page.abstract }}</p>
+    <h2>📝 {{ page.topic }}</h2>
+    <p class="talk-item">概要：{{ page.abstract }}
     {% if links != "" %}
-    <p class="talk-item">関連リンク：{{- links -}}</p>
+    <br>{{- links -}}
     {% endif %}
-    <p class="talk-item">言語：トークは{% if page.language %}{{ page.language }}{% else %}日本語{% endif %}です。</p>
+    </p>
+    <p class="talk-item">※トークは{% if page.language %}{{ page.language }}{% else %}日本語{% endif %}です。</p>
   </section>
 
   <section class="talk-join">
     <h2>🏃‍♀️ 参加方法</h2>
     <p>参加用のZoom URLはメーリングリストで配信しています。
-    <br>ほかの宣伝投稿なし。いつでも抜けられます。</p>
+    <br>ほかの宣伝投稿はありません。いつでも抜けられます。</p>
     <p class="text-center mt-0">
       <a class="btn btn-outline-danger" href="https://docs.google.com/forms/d/e/1FAIpQLSdoLi9-yUvNfQAP_a71HRIBhLsXjwOPhEV-QdJXRvKPyiU5dQ/viewform?usp=sf_link" target="_blank">メーリングリスト登録フォーム</a>
     </p>
