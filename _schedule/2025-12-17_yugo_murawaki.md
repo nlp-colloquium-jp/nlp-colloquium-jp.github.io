@@ -12,4 +12,5 @@ topic: 言語ステガノグラフィ
 abstract: 言語ステガノグラフィは、見た目は何の変哲もないテキスト（ステゴテキスト）に秘密のメッセージを埋め込む技術です。言語ステガノグラフィは長年一部の愛好家の遊びにとどまっていましたが、LLMの利用により、ステゴテキストの自然さと埋め込み容量の双方が大きく向上しました。たとえば、誰かを称賛しているように見えるテキストが、実際にはその人物への批判を埋め込んでいる、といったことが可能になります。しかし、論文が量産される一方で、手軽に使えるソフトウェアは一向に登場しません。本トークでは、言語ステガノグラフィの基本を紹介したのち、実用化を阻む諸問題を検討し、将来展望を述べます。
 display: true
 ---
-[[論文1]](https://aclanthology.org/2025.emnlp-main.361/) (EMNLP 2025) [[論文2]](https://aclanthology.org/2022.aacl-short.15/) (AACL 2022) [[論文2]](https://aclanthology.org/2021.naacl-main.433/) (NAACL 2021)
+
+[[スライド]](https://murawaki.org/pubdb/nlp_colloquium20251217.pdf) [[論文1]](https://aclanthology.org/2025.emnlp-main.361/) (EMNLP 2025) [[論文2]](https://aclanthology.org/2022.aacl-short.15/) (AACL 2022) [[論文2]](https://aclanthology.org/2021.naacl-main.433/) (NAACL 2021)
