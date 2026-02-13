@@ -12,4 +12,4 @@ abstract: "本トークでは、PLaMo翻訳の開発を通じて見えてきた�
 display: true
 ---
 
- [[論文1]](https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/1461) (preprint) [[論文2]](https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/2428) (preprint)
+ [[論文1]](https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/1461) (preprint) [[論文2]](https://jxiv.jst.go.jp/index.php/jxiv/preprint/view/2428) (preprint) [[プロダクトページ]](https://translate.preferredai.jp/)
