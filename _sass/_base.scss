@@ -537,16 +537,30 @@ html.transition *:after {
   font-size: 2rem;
   margin-bottom: 1.5rem;
 }
+.headline-stats {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: nowrap;
+}
 .recent-attendance {
   display: flex;             /* instead of inline‑flex */
   flex-direction: column;    /* stack children top→down */
   align-items: center;       /* center‑align horizontally */
   gap: 0.5rem;               /* vertical spacing */
   margin-bottom: 1rem;
+  min-width: 220px;
 }
 .recent-attendance .icon { font-size: 2rem; }
 .recent-attendance .label { font-size: 1.25rem; color: #666; }
 .recent-attendance .value { font-size: 1.5rem; }
+
+@media (max-width: 560px) {
+  .headline-stats {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
 
 .dotted {
   border: none;

@@ -65,10 +65,17 @@ NLPコロキウムの運営を支えてくださるスポンサーを募集し�
   NLPコロキウムは自然言語処理および計算言語学に興味のある多くの方に注目していただいているイベントです。
 
   <div class="stats-overview">
-    <div class="recent-attendance">
-      <div class="icon"><i class="fas fa-users fa-2x"></i></div>
-      <div class="label">直近10回の平均参加者数</div>
-      <div class="value"><span class="highlight">251</span> 名</div>
+    <div class="headline-stats">
+      <div class="recent-attendance">
+        <div class="icon"><i class="fas fa-microphone fa-2x"></i></div>
+        <div class="label">2025年度のトーク数</div>
+        <div class="value"><span class="highlight">14</span> 回</div>
+      </div>
+      <div class="recent-attendance">
+        <div class="icon"><i class="fas fa-users fa-2x"></i></div>
+        <div class="label">2025年度の平均参加者数</div>
+        <div class="value"><span class="highlight">300</span> 名</div>
+      </div>
     </div>
     <hr class="dotted">
     <div class="stats-grid">
@@ -77,23 +84,23 @@ NLPコロキウムの運営を支えてくださるスポンサーを募集し�
           <div class="icon youtube"><i class="fab fa-youtube fa-2x" style="color: #FF0000;"></i></div>
         </a>
         <h2>YouTube</h2>
-        <p>登録者数 <span class="highlight">1,540</span> 名、<br>総再生時間 <span class="highlight">3,564</span> 時間</p>
+        <p>登録者数 <span class="highlight">1,749</span> 名、<br>総再生時間 <span class="highlight">4,323</span> 時間</p>
       </div>
       <div class="stat-card">
         <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter">
           <div class="icon twitter"><i class="fab fa-square-x-twitter fa-2x" style="color: #000;"></i></div>
         </a>
         <h2>X（旧Twitter）</h2>
-        <p>フォロワー <span class="highlight">1,651</span> 名</p>
+        <p>フォロワー <span class="highlight">1,867</span> 名</p>
       </div>
       <div class="stat-card">
         <div class="icon mail"><i class="fas fa-envelope fa-2x" style="color: #555;"></i></div>
         <h2>メーリングリスト</h2>
-        <p>登録者数 <span class="highlight">2,260</span> 名</p>
+        <p>登録者数 <span class="highlight">2,712</span> 名</p>
       </div>
     </div>
     <div class="stats-note">
-      情報は2025年5月時点。
+      情報は2026年3月時点。
     </div>
   </div>
 </section>
