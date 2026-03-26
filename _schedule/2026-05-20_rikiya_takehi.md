@@ -9,7 +9,9 @@ name_en: Rikiya Takehi
 affiliation: 早稲田大学
 bio: TBA
 website: https://rikiyat.github.io/ja/
-topic: TBA
+topic: "リスク最小化として捉え直す検索（予定）"
 abstract: TBA
 display: true
 ---
+
+[[論文]](https://arxiv.org/abs/2510.22681) (WSDM 2026)
