@@ -7,7 +7,7 @@ name_en: Masahiro Kaneko
 affiliation: MBZUAI
 bio: TBA
 website: https://sites.google.com/view/masahirokaneko
-topic: TBA
+topic: AIの安全性に関する研究紹介（予定）
 abstract: TBA
 display: true
 ---

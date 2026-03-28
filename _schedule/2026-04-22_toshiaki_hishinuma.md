@@ -9,7 +9,7 @@ name_en: Toshiaki Hishinuma
 affiliation: SB Intuitions株式会社
 bio: TBA
 website: https://hishinuma-t.dev/about/
-topic: TBA
+topic: AI研究を支える計算基盤のチュートリアル（予定）
 abstract: TBA
 display: true
 ---

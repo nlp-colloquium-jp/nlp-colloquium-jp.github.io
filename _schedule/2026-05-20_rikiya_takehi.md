@@ -9,7 +9,7 @@ name_en: Rikiya Takehi
 affiliation: 早稲田大学
 bio: TBA
 website: https://rikiyat.github.io/ja/
-topic: "リスク最小化として捉え直す検索（予定）"
+topic: リスク最小化として捉え直す検索（予定）
 abstract: TBA
 display: true
 ---
