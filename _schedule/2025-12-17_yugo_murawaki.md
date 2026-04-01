@@ -13,4 +13,4 @@ abstract: 言語ステガノグラフィは、見た目は何の変哲もない�
 display: true
 ---
 
-[[スライド]](https://murawaki.org/pubdb/nlp_colloquium20251217.pdf) [[論文1]](https://www.researchgate.net/publication/398488225_A_Comprehensive_Survey_on_Linguistic_Steganography_Methods_Countermeasures_Evaluation_and_Challenges) (preprint) [[論文2]](https://aclanthology.org/2025.emnlp-main.361/) (EMNLP 2025) [[論文3]](https://aclanthology.org/2022.aacl-short.15/) (AACL 2022) [[論文4]](https://aclanthology.org/2021.naacl-main.433/) (NAACL 2021)
+[[動画]](https://www.youtube.com/watch?v=NGAma_ksoWg) [[スライド]](https://murawaki.org/pubdb/nlp_colloquium20251217.pdf) [[論文1]](https://www.researchgate.net/publication/398488225_A_Comprehensive_Survey_on_Linguistic_Steganography_Methods_Countermeasures_Evaluation_and_Challenges) (preprint) [[論文2]](https://aclanthology.org/2025.emnlp-main.361/) (EMNLP 2025) [[論文3]](https://aclanthology.org/2022.aacl-short.15/) (AACL 2022) [[論文4]](https://aclanthology.org/2021.naacl-main.433/) (NAACL 2021)

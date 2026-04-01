@@ -12,4 +12,4 @@ abstract: 昨今，LLM の reasoning 能力は目覚ましい発展を遂げて�
 display: true
 ---
 
- [[論文1]](https://arxiv.org/abs/2506.05744) (NeurIPS 2025) [[論文2]](https://arxiv.org/abs/2509.21128) (ICLR 2026)
+[[動画]](https://www.youtube.com/watch?v=uNLoIdAnfyk) [[論文1]](https://arxiv.org/abs/2506.05744) (NeurIPS 2025) [[論文2]](https://arxiv.org/abs/2509.21128) (ICLR 2026)
