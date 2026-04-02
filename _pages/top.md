@@ -17,6 +17,7 @@ social: false  # includes social icons at the bottom of the page
 
 <div id="next-talk"></div>
 <script src="{{ '/assets/js/next_talk.js' | relative_url }}" async></script>
+<script src="{{ '/assets/js/highlight_next_talk.js' | relative_url }}" async></script>
 
 
 # 参加方法
