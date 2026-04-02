@@ -16,7 +16,11 @@
    */
   function parseDate(value) {
     if (!value) return null;
-    const date = new Date(value);
+
+    // Normalize timezone offsets like +0900 / -0530 to +09:00 / -05:30.
+    // This ensures compatibility with browsers that require ISO 8601 format.
+    const normalized = String(value).replace(/([+-]\d{2})(\d{2})$/, "$1:$2");
+    const date = new Date(normalized);
     return Number.isNaN(date.getTime()) ? null : date;
   }
 
@@ -106,7 +110,8 @@
       const numberCell = row.querySelector("th");
       if (!numberCell) return false;
       const cellText = numberCell.textContent.trim();
-      return cellText && Number(cellText) === Number(talkNumber);
+      const numericValue = parseInt(cellText, 10);
+      return !Number.isNaN(numericValue) && numericValue === Number(talkNumber);
     });
   }
 
