@@ -16,6 +16,7 @@ social: false  # includes social icons at the bottom of the page
 
 <div id="next-talk"></div>
 <script src="{{ '/assets/js/next_talk.js' | relative_url }}" async></script>
+<script src="{{ '/assets/js/highlight_next_talk.js' | relative_url }}" defer></script>
 
 <img class="img-contents" src="/assets/img/colloquium-overview.png" alt="15-20分程度のトーク+QA、スピーカーとの個別ミーティングを定期開催">
 
