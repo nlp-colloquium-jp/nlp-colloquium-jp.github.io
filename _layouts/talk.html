@@ -40,6 +40,10 @@ layout: default
     {% else %}
       @ online
     {% endif %}
+    {% assign no_video_notice = "今回は録画のYouTube公開はありません。ぜひリアルタイムでご参加ください。" %}
+    {% if page.no_video %}
+      <div class="alert alert-info" role="alert">{{ no_video_notice }}</div>
+    {% endif %}
     {% if page.notice %}
       <div class="alert alert-warning" role="alert">{{ page.notice }}</div>
     {% endif %}
