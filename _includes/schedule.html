@@ -59,7 +59,7 @@
                     {% endif %}
                     {% assign talk_end_ts = end_source | date: "%s" | plus: 0 %}
                     {% if talk_end_ts > now_ts %}
-                      <span class="video-notice-schedule-table">今回は録画のYouTube公開はありません。ぜひリアルタイムでご参加ください。</span><br>
+                      <span class="video-notice-schedule-table">録画のYouTube公開はありません。ぜひリアルタイムでご参加ください。</span><br>
                     {% endif %}
                   {% endif %}
                   {% if item.inline %}
@@ -73,7 +73,7 @@
                     <a class="schedule-title" href="{{ item.url | relative_url }}">[概要]</a>
                   {% endif %}
                   {% if item.no_video %}
-                    {% if talk_end_ts <= now_ts %}<span style="color: gray;">[動画なし]</span>{% endif %}
+                    {% if talk_end_ts <= now_ts %}<span style="color: gray;">[動画非公開]</span>{% endif %}
                   {% endif %}
                   {% if item.content %}
                     {{ item.content }}
