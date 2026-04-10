@@ -57,6 +57,18 @@ table#scheduleTable {
             display: inline;
         }
 
+        .video-notice-schedule-table {
+            display: inline-block;
+            margin: 0.3rem 0 0.1rem;
+            padding: 0.2rem 0.45rem;
+            border-radius: 0.3rem;
+          border: 1px solid #c8cdd2;
+          background-color: #f3f5f7;
+          color: #4f5b66;
+            font-weight: 600;
+            line-height: 1.5;
+        }
+
         p.abstract {
             display: block !important;
             padding: 1rem;
