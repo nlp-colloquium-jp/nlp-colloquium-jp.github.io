@@ -1,0 +1,35 @@
+{% assign event = include.event %}
+{% unless event.date_tba or event.time_tba or event.topic == nil %}
+  {% assign event_start_iso = event.date | date: "%Y-%m-%dT%H:%M:%S%z" %}
+  {% if event.time_end %}
+    {% assign event_end_iso = event.date | date: "%Y-%m-%d" | append: "T" | append: (event.time_end | date: "%H:%M:%S") | append: "+0900" %}
+  {% else %}
+    {% assign event_end_iso = "" %}
+  {% endif %}
+  {% assign event_title = "NLP Colloquium: " | append: event.topic %}
+  {% if event.name %}
+    {% assign event_title = event_title | append: " / " | append: event.name %}
+  {% endif %}
+  {% assign event_desc = "トークのzoomリンクはメーリングリストをご確認ください。メーリングリストに加入すればすぐにトークに参加できます。メーリングリスト申請：https://docs.google.com/forms/d/e/1FAIpQLSdoLi9-yUvNfQAP_a71HRIBhLsXjwOPhEV-QdJXRvKPyiU5dQ" %}
+  {% if include.event_url %}
+    {% assign event_url = include.event_url %}
+  {% else %}
+    {% assign event_url = event.url | absolute_url %}
+  {% endif %}
+  <div class="calendar-actions mt-1"
+    data-title="{{ event_title | escape_once }}"
+    data-start-iso="{{ event_start_iso }}"
+    data-end-iso="{{ event_end_iso }}"
+    data-timezone="Asia/Tokyo"
+    data-description="{{ event_desc | escape_once }}"
+    data-uid="{{ event.date | date: "%Y%m%dT%H%M%S" }}-{{ event.name | default: "speaker" | slugify }}"
+    data-url="{{ event_url }}">
+    <details class="calendar-dropdown">
+      <summary class="btn btn-outline-danger calendar-dropdown-trigger">カレンダーに追加</summary>
+      <div class="calendar-dropdown-menu">
+        <a class="calendar-dropdown-item" data-calendar-google href="#" target="_blank" rel="noopener">Google Calendar</a>
+        <a class="calendar-dropdown-item" data-calendar-ics href="#">ics</a>
+      </div>
+    </details>
+  </div>
+{% endunless %}
