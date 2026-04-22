@@ -6,7 +6,7 @@ time_em: false
 inline: false
 name: 武樋力哉
 name_en: Rikiya Takehi
-affiliation: 早稲田大学, MIT (incoming)
+affiliation: 早稲田大学, MIT
 bio: TBA
 website: https://rikiyat.github.io/ja/
 topic: リスク最小化として捉え直す検索（予定）
