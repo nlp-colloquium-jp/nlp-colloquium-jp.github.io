@@ -9,7 +9,9 @@ name_en: Hiroyuki Deguchi
 affiliation: NTTコミュニケーション科学基礎研究所
 bio: TBA
 website: https://sites.google.com/view/hdeguchi/home-ja
-topic: TBA
+topic: 埋め込みに基づく検索や評価指標の脆弱性特定（予定）
 abstract: TBA
 display: true
 ---
+
+[[論文]](https://arxiv.org/abs/2604.27674) (ACL 2026)
