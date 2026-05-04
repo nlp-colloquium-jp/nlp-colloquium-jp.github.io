@@ -12,4 +12,4 @@ abstract: "本トークでは、大規模言語モデル (LLM) の学習デー�
 display: true
 ---
 
-[[論文]](https://arxiv.org/pdf/2602.10908) [[デモページ]](https://softmatcha.github.io/v2/)
+[[論文]](https://arxiv.org/pdf/2602.10908) (ICML 2026) [[デモページ]](https://softmatcha.github.io/v2/)

@@ -14,4 +14,4 @@ abstract: In-context leaningを主たる題材として，Transformerの学習�
 display: true
 ---
 
-[[動画]](https://www.youtube.com/watch?v=JAjzD1Wpa7M) [[スライド]](https://drive.google.com/file/d/1PNpFAEMSviXvXtqPiGR30tWEG_2uAuoa/view?usp=sharing) [[論文1]](https://proceedings.mlr.press/v235/sander24a.html) (ICML 2024) [[論文2]](https://proceedings.mlr.press/v235/kim24af.html) (ICML 2024) [[論文3]](https://openreview.net/forum?id=hlcmJRzuUG) (NeurIPS 2024) [[論文4]](https://arxiv.org/abs/2405.19036)
+[[動画]](https://www.youtube.com/watch?v=JAjzD1Wpa7M) [[スライド]](https://drive.google.com/file/d/1PNpFAEMSviXvXtqPiGR30tWEG_2uAuoa/view?usp=sharing) [[論文1]](https://proceedings.mlr.press/v235/sander24a.html) (ICML 2024) [[論文2]](https://proceedings.mlr.press/v235/kim24af.html) (ICML 2024) [[論文3]](https://openreview.net/forum?id=hlcmJRzuUG) (NeurIPS 2024) [[論文4]](https://arxiv.org/abs/2405.19036) (ICLR 2025)
