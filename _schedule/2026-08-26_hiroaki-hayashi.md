@@ -14,4 +14,4 @@ abstract: TBA
 display: true
 ---
 
-[[論文]](https://arxiv.org/abs/2505.06120) (ICLR 2026 Best Paper)
+[[論文]](https://arxiv.org/abs/2505.06120) (ICLR 2026 Outstanding Paper)
