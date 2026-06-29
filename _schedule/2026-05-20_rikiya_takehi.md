@@ -14,4 +14,4 @@ abstract: "データマイニングのトップ国際会議、WSDM2026でBest Pa
 display: true
 ---
 
-[[スライド]](https://drive.google.com/file/d/1y-RDFq5Oo9VqdlLfzcOV2OgpQJLVPEnb/view?usp=sharing) [[論文]](https://arxiv.org/abs/2510.22681) (WSDM 2026)
+[[動画]](https://www.youtube.com/watch?v=N5PNtJ-nOMg) [[スライド]](https://drive.google.com/file/d/1y-RDFq5Oo9VqdlLfzcOV2OgpQJLVPEnb/view?usp=sharing) [[論文]](https://arxiv.org/abs/2510.22681) (WSDM 2026)
