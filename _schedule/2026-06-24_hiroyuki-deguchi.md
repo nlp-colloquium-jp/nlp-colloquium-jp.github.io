@@ -14,4 +14,4 @@ abstract: ベクトル間の距離の近さでデータ間の意味的類似度�
 display: true
 ---
 
-[[論文1]](https://arxiv.org/abs/2604.27674) (ACL 2026) [[論文2]](https://aclanthology.org/2026.eacl-short.13/) (EACL 2026) [[スライド]](https://speakerdeck.com/de9uch1/260624-nlp-colloquium-hubness)
+[[動画]](https://youtu.be/w4zatzTb3FE) [[スライド]](https://speakerdeck.com/de9uch1/260624-nlp-colloquium-hubness) [[論文1]](https://arxiv.org/abs/2604.27674) (ACL 2026) [[論文2]](https://aclanthology.org/2026.eacl-short.13/) (EACL 2026)
