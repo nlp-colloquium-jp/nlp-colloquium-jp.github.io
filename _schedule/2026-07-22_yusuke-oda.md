@@ -14,4 +14,4 @@ abstract: 大規模な基盤モデルはパラメータや開発の経緯が公�
 display: true
 ---
 
-[[ニュースリリース]](https://www.nii.ac.jp/news/release/2026/0403.html) 
+[[動画]](https://youtu.be/HVKnnc4LjDg) [[スライド]](https://speakerdeck.com/odashi/opunsosuainokai-fa-shi-qing-2026-07-22-at-nlpkorokiumu) [[ニュースリリース]](https://www.nii.ac.jp/news/release/2026/0403.html)
