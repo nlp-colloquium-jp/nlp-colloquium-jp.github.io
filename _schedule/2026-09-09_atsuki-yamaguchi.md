@@ -9,7 +9,7 @@ name_en: Atsuki Yamaguchi
 affiliation: University of Sheffield
 bio: ""
 website: https://gucci-j.github.io/about/ja/
-topic: "多言語にまたがる効率的で公平な自然言語処理（仮）"
+topic: "多言語にまたがる効率的で公平な自然言語処理（予定）"
 abstract: TBA
 display: true
 ---
