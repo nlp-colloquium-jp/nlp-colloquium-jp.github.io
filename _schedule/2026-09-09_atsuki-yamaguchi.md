@@ -14,4 +14,4 @@ abstract: TBA
 display: true
 ---
 
-[[論文]](https://aclanthology.org/2026.acl-long.865/) (ACL 2026)
+[[論文1]](https://aclanthology.org/2026.acl-long.865/) (ACL 2026) [[論文2]](https://aclanthology.org/2026.cl-1.9/) (CL 2026)
