@@ -1,8 +1,8 @@
 ---
 layout: talk
-date: 2026-08-26 12:00:00+0900
-time_end: 13:00:00+0900
-time_em: false
+date: 2026-08-26 11:00:00+0900
+time_end: 12:00:00+0900
+time_em: true
 inline: false
 name: 林佑明
 name_en: Hiroaki Hayashi
