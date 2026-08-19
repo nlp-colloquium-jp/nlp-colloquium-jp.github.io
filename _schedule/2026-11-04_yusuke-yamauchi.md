@@ -12,4 +12,4 @@ abstract: TBA
 display: true
 ---
 
-[[論文]](https://arxiv.org/abs/2601.06575) (ACL 2026)
+[[論文]](https://aclanthology.org/2026.acl-long.772/) (ACL 2026)
