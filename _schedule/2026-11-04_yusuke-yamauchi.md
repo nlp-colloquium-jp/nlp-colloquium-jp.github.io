@@ -2,7 +2,6 @@
 layout: talk
 date: 2026-11-04 17:00:00+0900
 time_em: true
-date_comment: "※ドイツより登壇（9:00 CET）"
 inline: false
 name: 山内悠輔
 name_en: Yusuke Yamauchi
