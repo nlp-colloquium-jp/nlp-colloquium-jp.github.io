@@ -40,6 +40,7 @@
                 {% if item.date_comment %}
                    <br>{{ item.date_comment }}
                 {% endif %}
+                {% include calendar_actions.html event=item %}
               </th>
               <td>
                 {% if item.website %}<a href="{{ item.website }}" target="_blank">{% endif %}
@@ -97,5 +98,6 @@
     {% if site.enable_folding_table %}
       <script src="{{ '/assets/js/fold_table.js' | relative_url }}" async></script>
     {% endif %}
+    <script src="{{ '/assets/js/calendar_actions.js' | relative_url }}" defer></script>
   </div>
 </div>
