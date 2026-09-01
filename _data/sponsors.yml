@@ -1,10 +1,6 @@
 Sponsors:
   - type: "プラチナスポンサー"
     organizations:
-      - name: 講談社 IT戦略企画室
-        url: https://www.kodansha.co.jp/it-blogs
-        image: logo_kodansha_it.jpeg
-        width: 320px
       - name: 株式会社博報堂DYホールディングス
         url: https://www.hakuhodody-holdings.co.jp/
         image: logo_hakuhodo_dy_holdings.jpeg
@@ -22,4 +18,8 @@ Sponsors:
       - name: Polaris.AI株式会社
         url: https://polarisai.co.jp/
         image: logo_polaris_ai.jpeg
+        width: 250px
+      - name: MatBrain株式会社
+        url: https://www.matbrain.jp/
+        image: logo_matbrain.png
         width: 250px
