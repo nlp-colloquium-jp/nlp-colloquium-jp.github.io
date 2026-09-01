@@ -14,4 +14,4 @@ abstract: 大規模言語モデルは広く対話型のアプリケーション�
 display: true
 ---
 
-[[論文]](https://arxiv.org/abs/2505.06120) (ICLR 2026 Outstanding Paper)
+[[動画]](https://youtu.be/jwgZ6wDbtL0) [[スライド]](https://hiroakih.me/assets/talks/lost-in-conv-jp.pdf) [[論文]](https://arxiv.org/abs/2505.06120) (ICLR 2026 Outstanding Paper)
