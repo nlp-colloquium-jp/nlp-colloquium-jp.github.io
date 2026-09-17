@@ -14,4 +14,4 @@ abstract: "ウェブデータの約4割を英語が占める現状において�
 display: true
 ---
 
-[[論文1]](https://aclanthology.org/2026.acl-long.865/) (ACL 2026) [[論文2]](https://aclanthology.org/2026.cl-1.9/) (CL 2026)
+[[論文1]](https://aclanthology.org/2026.acl-long.865/) (ACL 2026) [[論文2]](https://aclanthology.org/2026.cl-1.9/) (CL 2026) [[記事]](https://www.jstage.jst.go.jp/article/jnlp/33/3/33_1762/_article/-char/ja) (自然言語処理)
