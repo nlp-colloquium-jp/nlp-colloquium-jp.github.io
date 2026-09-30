@@ -32,9 +32,9 @@
                     {% if item.time_end %}
                       {{ item.date | date: "%H:%M" }}&ndash;{{ item.time_end | date: "%H:%M (%Z)" }}
                     {% else %}
-                      {% assign time_end_second = page.date | date: '%s' %}
+                      {% assign time_end_second = item.date | date: '%s' %}
                       {% assign time_end = time_end_second | plus: 3600 %}
-                      {{ item.date | date: "%H:%M (%Z)" }}&ndash;{{ item.time_end | date: "%H:%M (%Z)" }}
+                      {{ item.date | date: "%H:%M" }}&ndash;{{ time_end | date: "%H:%M (%Z)" }}
                     {% endif %}
                     {% if item.time_em %}</b>{% endif %}
                   {% endif %}
