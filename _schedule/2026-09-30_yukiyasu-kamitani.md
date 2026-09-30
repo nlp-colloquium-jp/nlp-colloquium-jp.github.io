@@ -14,4 +14,4 @@ abstract: "脳の活動も、AI のユニットの活動も、内容を表現す
 display: true
 ---
 
-[[論文]](https://arxiv.org/abs/2510.12228) (ICLR 2026) [[書籍]](https://kamitanilab.github.io/neuroAI-math-book/)
+[[スライド]](https://speakerdeck.com/ykamit/hyoushou-o-saiteigi-suru-senzai-hyougen-kaiseki-no-otoshiana) [[論文]](https://arxiv.org/abs/2510.12228) (ICLR 2026) [[書籍]](https://kamitanilab.github.io/neuroAI-math-book/)
