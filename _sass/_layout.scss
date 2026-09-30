@@ -42,6 +42,83 @@ body.sticky-bottom-footer {
     max-width: $max-content-width;
 }
 
+.calendar-actions {
+  position: relative;
+  display: inline-block;
+}
+
+.calendar-dropdown {
+  display: inline-block;
+}
+
+.calendar-dropdown > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.calendar-dropdown > summary::-webkit-details-marker {
+  display: none;
+}
+
+.calendar-dropdown-trigger {
+  display: inline-block;
+  margin: 0;
+  color: var(--global-theme-color) !important;
+  border-color: var(--global-theme-color) !important;
+  background: transparent;
+  font-size: 0.62rem !important;
+  line-height: 1 !important;
+  padding: 0.2rem 0.2rem !important;
+  border-radius: 0.2rem;
+  text-transform: none;
+  letter-spacing: normal;
+  min-height: 0 !important;
+  vertical-align: middle;
+}
+
+.calendar-dropdown-trigger:hover {
+  color: var(--global-theme-color) !important;
+  border-color: var(--global-theme-color) !important;
+  text-decoration: none;
+}
+
+.calendar-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 2px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  padding: 0.2rem;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-theme-color);
+  border-radius: 0.25rem;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.calendar-dropdown[open] .calendar-dropdown-menu {
+  display: block;
+}
+
+.calendar-dropdown-item {
+  display: block;
+  padding: 0.05rem 0.2rem;
+  text-align: center;
+  color: var(--global-theme-color);
+  font-size: 0.75rem;
+  line-height: 1.2;
+}
+
+.calendar-dropdown-item:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+
+.calendar-dropdown-item + .calendar-dropdown-item {
+  margin-top: 0.1rem;
+}
+
 table#scheduleTable {
     .date-em {
         text-decoration: underline;
@@ -52,6 +129,7 @@ table#scheduleTable {
     .notice-em {
         text-decoration: underline;
     }
+
     .talk-info {
         p {
             display: inline;
