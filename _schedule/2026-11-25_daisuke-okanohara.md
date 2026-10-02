@@ -13,3 +13,5 @@ abstract: 本講演では、著書『ヒトとAI』で論じた、人間とAIの
 
 display: true
 ---
+
+[[書籍]](https://www.iwanami.co.jp/book/b10170462.html)
