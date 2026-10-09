@@ -8,7 +8,7 @@ name_en: Daisuke Oba
 affiliation: 東京科学大学
 website: https://daioba.github.io/
 bio: TBA
-topic: 生成過程に価値を見出す: 拡散言語モデルの学習と推論（仮）
+topic: "生成過程に価値を見出す: 拡散言語モデルの学習と推論（仮）"
 abstract: TBA
 display: true
 ---
