@@ -40,6 +40,7 @@ layout: default
     {% else %}
       @ online
     {% endif %}
+    {% include calendar_actions.html event=page %}
     {% assign no_video_notice = "録画のYouTube公開はありません。ぜひリアルタイムでご参加ください。" %}
     {% if page.no_video %}
       <div class="alert alert-info" role="alert">{{ no_video_notice }}</div>
@@ -86,3 +87,5 @@ layout: default
     <p><a href="/">[トップページへ戻る]</a></p>
   </footer>
 </div>
+
+<script src="{{ '/assets/js/calendar_actions.js' | relative_url }}" defer></script>
