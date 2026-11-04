@@ -5,7 +5,7 @@
     {% for sponsor in sponsor_group.organizations %}
       <div class="col sponsor-col">
         {% if sponsor.url %}<a href="{{ sponsor.url }}" target="_blank">{% endif %}
-          <img src="{{ sponsor.image | prepend: '/assets/img/sponsors/' | relative_url }}" width="{{ sponsor.width }}" height="{{ sponsor.height }}" alt="{{ sponsor.name }} ロゴ" />
+          <img src="{{ sponsor.image | prepend: '/assets/img/sponsors/' | relative_url }}" width="{{ sponsor.width }}" height="{{ sponsor.height }}" alt="{{ sponsor.name }} ロゴ"{% if sponsor.margin_left %} style="margin-left: {{ sponsor.margin_left }};"{% endif %} />
         {% if sponsor.url %}</a>{% endif %}
         <div class="sponsor-info">
           <p>

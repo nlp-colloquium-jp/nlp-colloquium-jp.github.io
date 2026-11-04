@@ -15,11 +15,12 @@ Sponsors:
         url: https://ivry.jp/
         image: logo_ivry_latest.png
         width: 250px
-      - name: Polaris.AI株式会社
-        url: https://polarisai.co.jp/
-        image: logo_polaris_ai.jpeg
-        width: 250px
       - name: MatBrain株式会社
         url: https://www.matbrain.jp/
         image: logo_matbrain.png
         width: 250px
+      - name: Sansan株式会社
+        url: https://jp.corp-sansan.com/
+        image: logo_sansan.png
+        width: 180px
+        margin_left: 44.5px # 画像内の余白を補い、バオバブのロゴ本体と左端を揃える
