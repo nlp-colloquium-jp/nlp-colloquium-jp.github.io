@@ -13,4 +13,4 @@ abstract: "言語モデルは、一般に数百〜数千次元の高次元ベク
 display: true
 ---
 
-[[論文]](https://aclanthology.org/2026.acl-long.772/) (ACL 2026)
+[[スライド]](https://yama11235.github.io/slides.html) [[論文]](https://aclanthology.org/2026.acl-long.772/) (ACL 2026)
