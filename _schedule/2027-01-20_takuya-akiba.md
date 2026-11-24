@@ -1,6 +1,8 @@
 ---
 layout: talk
 date: 2027-01-20 12:00:00+0900
+time_end: 13:30:00+0900
+time_em: true
 inline: false
 name: 秋葉拓哉
 name_en: Takuya Akiba
