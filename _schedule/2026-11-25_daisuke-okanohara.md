@@ -14,4 +14,4 @@ abstract: 本講演では、著書『ヒトとAI』で論じた、人間とAIの
 display: true
 ---
 
-[[書籍]](https://www.iwanami.co.jp/book/b10170462.html)
+[[スライド]](https://hillbig.github.io/NLP_colloquium_2026.pdf) [[書籍]](https://www.iwanami.co.jp/book/b10170462.html)
